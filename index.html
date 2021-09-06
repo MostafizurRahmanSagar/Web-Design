@@ -4,118 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style type="text/css">
-    body{
-       font-family: sans-serif;
-         }
-    </style>
+    <title>Assignment 3</title>
+    
 </head>
 <body>
-    <h1>Resume</h1>
-    <h2>saGar</h2>
+    
+    <h1 style="text-align: center; color: #9b59b6;">Assignment 3 (From Design)</h1>
+    <h1 style="text-align: center; color: #9b59b6;">Md. Mostafizur Rahman Sagar</h1>
     <hr>
-    <!--personal information-->
-    <h3><u>personal information:</u></h3>
-    <table>
-        <tr>
-           <td>Name :</td>
-           <td>Md.Mostafizur Rahman Sagar</td> 
-        </tr>
-        <tr>
-            <td>Father Name :</td>
-            <td>Md.Ferdous alam</td> 
-         </tr>
-         <tr>
-            <td>Mother Name :</td>
-            <td>Most. Rubi Begum</td> 
-         </tr>
-         <tr>
-             <td>Date of Birth:</td>
-             <td>20-11-1997</td>
-         </tr>
-         <tr>
-            <td>present address:</td>
-            <td>Mirpur, Dhaka,Bangladesh</td>
-        </tr>
-        <tr>
-            <td>mailing address:</td>
-            <td>Debiganj, Panchagarh</td>
-        </tr>
-        <tr>
-            <td>Gender:</td>
-            <td>Male</td>
-        </tr>
-        <tr>
-            <td>Nationality:</td>
-            <td>Bangladeshi</td>
-        </tr>
-        <tr>
-            <td>Religion:</td>
-            <td>Islam</td>
-        </tr>
-        <tr>
-            <td>Mobile:</td>
-            <td>01762702901</td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td><a href="#">sagarrahman901@gmail.com</a></td> 
-        </tr>
-    </table>
-    <!--Interset-->
-    <h3><u>Interest:</u></h3>
-   <ul>
-       <li>Programming</li>
-       <li>Computer science</li>
-       <li>Travels</li>
-   </ul> 
-   <!--Skills-->
-   <h3><u>Skills :</u></h3>
-   <ul>
-    <li>Web Design with HTML & CSS</li>
-</ul>
-<!--Extracurriculars-->
-<h3><u>Extracurriculars :</u></h3>
-<ul>
-    <li>Computer Club</li>
-   
-</ul>  
-       <!-- education -->
-       <h3><u>Education :</u> </h3>
-        <ul>
-        <li><a href="#">Nripendra Narayan Government High School</a></li>
-        <li><a href="#">Shamoly Ideal textile and Engineering college</a></li>
-        <li><a href="#">Southeast University</a></li>
-         
-        </ul>
-       
-       <h3><u>Education qualification :</u></h3>
-       <table border="1">
-           <tr>
-               <th>Exam</th>
-               <th>Year</th>
-               <th>Result</th>
-               <th>Board</th>
-           </tr>
-           <tr>
-               <td>SSC</td>
-               <td>2013</td>
-               <td>3.56</td>
-               <td>Dinajpur</td>
-           </tr>
-           <tr>
-               <td>Diploma</td>
-               <td>2018</td>
-               <td>3.00</td>
-               <td>Bangladesh Technical Education Board</td>
-           </tr>
-           <tr>
-               <td>Bsc in CSE(running)</td>
-               <td>2018</td>
-               <td>2.80(current)</td>
-               <td>Southeast University</td>
-           </tr>
-       </table>
+    <form action="" method="post">
+        <label for="name">User Name:</label>
+        <input type="text" placeholder= "Enter Your Name" id="name" name=""> <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" placeholder= "Enter Your email" id="email" Email=""><br><br> 
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder= "Enter Your password" id="password" password=""><br><br> 
+
+        <label for="date">Date:</label>
+        <input type="date"><br><br> 
+        <input type="file" name="id="><br><br>
+        <input type="number" min="0" max="10";><br><br>
+        <input type="range"><br><br>
+        <input type="color"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+        <label for="blood group" required>Select your blood group</label>
+        <select name="" id="" required>
+          <option value="">A+</option>
+          <option value="">A-</option>
+          <option value="">B+</option>
+          <option value="">B-</option>
+          <option value="">AB+</option>
+          <option value="">AB-</option>
+          <option value="">O+</option>
+          <option value="">O-</option>
+        </select><br><br>
+        <label for="department" required>Select for Department</label>
+      <select name="" id=""required>
+        <option value="">CSE</option>
+        <option value="">EEE</option>
+        <option value="">Pharmacy</option>
+        <option value="">Architecture</option>
+        <option value="">Textile</option>
+        <option value="">BBA</option>
+        <option value="">MBA</option>
+        <option value="">Economics</option>
+        <option value="">Bangla</option>
+        <option value="">English</option>
+        <option value="">L.L.B</option>
+        <option value="">L.L.M</option>
+      </select><br><br>
+      <label for="" >Description</label>
+      <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+      <label for="token">Token</label>
+      <input type="text" value="123456789" readonly>
+      <br><br>
+      <input type="text" value="123456789" disabled>
+      <br><br>
+      <label for="">Multiple File: </label>
+      <input type="file" multiple title="Multile file upload">
+      <br><br>
+      <input type="submit" value="Register">
+      <br><br>
+      <button>Submit</button>
+      <br><br>
+      <input type="reset">
+</form>
 </body>
 </html>
+
